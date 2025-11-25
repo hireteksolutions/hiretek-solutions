@@ -2,7 +2,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { useState } from "react";
-import Hiretek_logo from '../assets/Hiretek_logo.png';
+import H_Logo from '../assets/H_Logo.png';
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -13,7 +13,7 @@ const Header = () => {
       <nav className="container mx-auto flex h-16 items-center justify-between px-4">
       <Link to="/" className="flex items-center gap-2">
     <img 
-      src={Hiretek_logo} 
+      src={H_Logo} 
       alt="Hiretek Solutions Logo" 
       className="h-12 w-auto" 
     />
