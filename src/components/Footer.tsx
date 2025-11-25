@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Briefcase, Linkedin, Twitter, Facebook, Instagram } from "lucide-react";
-import H_Logo from '../assets/H_Logo.png';
+import Hiretek_Logo from '../assets/Hiretek_Logo.png';
 const Footer = () => {
   return (
     <footer className="w-full border-t border-border bg-muted/30 mt-auto">
@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
                <img 
-      src={H_Logo} 
+      src={Hiretek_Logo} 
       alt="Hiretek Solutions Logo" 
       className="h-12 w-auto" 
     />
